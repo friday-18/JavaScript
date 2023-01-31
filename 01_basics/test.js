@@ -1,1 +1,2 @@
-console.log("Friday !")
+console.log("Friday !");
+// abc
