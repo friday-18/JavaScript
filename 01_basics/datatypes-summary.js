@@ -39,3 +39,29 @@ console.log(typeof myFunction);
 console.log(typeof heroes);
 console.log(typeof id);
 console.log(typeof outsideTemp);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) & Heap (Non-Primitive Data type)
+
+
+let myName = "Friday-18";
+
+let myAnotherName = myName;
+myAnotherName = "classMate"
+console.log(myName);
+console.log(myAnotherName);
+
+let userOne = {
+    email:"firstEmail@google.com",
+    upi:123456789
+}
+
+let userTwo = userOne;
+userTwo.email = "changedEmail@google.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+console.log(userOne.email);
+console.log(userTwo.email);
